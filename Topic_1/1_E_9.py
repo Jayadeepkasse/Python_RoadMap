@@ -13,7 +13,7 @@ except:
     print("Value You Entered is not Correct")"""
 
 # Alternatives:
-"""Taking Input from the User: You can modify the code to take the number as input from the user instead of hardcoding the value. This way, it becomes more flexible.
+""" Taking Input from the User: You can modify the code to take the number as input from the user instead of hardcoding the value. This way, it becomes more flexible.
 
 Improved Code Example:
 x = int(input("Enter a number: "))
