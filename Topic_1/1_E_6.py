@@ -3,7 +3,7 @@ for x in range(1,11):
     print(x)
     
     
-"""What You’ve Learned:
+""" What You’ve Learned:
 You used a loop: The for loop iterates through a sequence of numbers.
 You printed numbers: Each number from 1 to 10 was displayed on a new line.
 By running and experimenting with these variations, you can see different ways to achieve the same goal and learn more about Python's capabilities."""
