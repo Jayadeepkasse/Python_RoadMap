@@ -4,7 +4,7 @@ print(f"This is User's Input : {User_Input}")
 
 
 #Alternatives:
-"""Handle Empty Input: You can add a check to handle cases where the user doesn't enter anything:
+"""  Handle Empty Input: You can add a check to handle cases where the user doesn't enter anything:
 
 User_Input = input("Input_Value: ")
 if User_Input:
