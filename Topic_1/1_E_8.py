@@ -5,7 +5,7 @@ print(Now.strftime("%y"))
 print(Now.year)
 
 #Alternatives:
-"""More Efficient Use of the datetime Module: Instead of calling datetime.datetime.now() and then formatting it with strftime() and year, you can directly use datetime.date.today()
+""" More Efficient Use of the datetime Module: Instead of calling datetime.datetime.now() and then formatting it with strftime() and year, you can directly use datetime.date.today()
 if you only care about the date (and not the time). This is more efficient as it directly provides the current date.
 
 Consolidating Outputs: You could use a single print() statement to format and print both the last two digits of the year and the full year together using Python’s f-strings. This improves readability and reduces code redundancy.
