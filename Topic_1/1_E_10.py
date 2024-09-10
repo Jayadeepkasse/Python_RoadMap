@@ -19,7 +19,7 @@ except:
     print("Enter Correct Values") """
      
 # Alternatives:
-"""Specify the Type of Exception: It's better practice to specify the type of exception you're handling instead of using a bare except.
+""" Specify the Type of Exception: It's better practice to specify the type of exception you're handling instead of using a bare except.
 In this case, you’re expecting a ValueError when a non-integer input is entered, so the except block should catch that specific error.
 
 Improved Code Example:
