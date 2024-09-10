@@ -7,8 +7,17 @@ try:
     print(f"sum of x,y is ",sum(x,y))
 except:
     print("Enter Correct Values")
-    
-    
+   
+#Best Practice Prblm:   
+"""def Calculate_sum(nums):
+    return sum(nums)
+try:
+    numbers=list(map(int,input("Enter the Numbers to do sub operation with space :").split(",")))
+    #print(numbers)
+    print(f"sum of {numbers} is ",sum(numbers))
+except:
+    print("Enter Correct Values") """
+     
 # Alternatives:
 """Specify the Type of Exception: It's better practice to specify the type of exception you're handling instead of using a bare except.
 In this case, you’re expecting a ValueError when a non-integer input is entered, so the except block should catch that specific error.
@@ -63,3 +72,5 @@ Improvements: Handling specific exceptions, summing multiple inputs, and ensurin
 Extend input flexibility: Allow users to input multiple numbers and sum them up to make the program more dynamic.
 Edge Case Handling: Ensure the program works with negative numbers, zero, and large values.
 This approach makes your code more efficient, user-friendly, and maintainable, ensuring it can handle a variety of real-world scenarios."""
+
+
