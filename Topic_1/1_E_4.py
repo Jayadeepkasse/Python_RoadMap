@@ -4,13 +4,13 @@ current_date_time = datetime.datetime.now()
 # Print the raw date and time
 print("Current date and time:", current_date_time)
 
-# Print individual components of the date and time
+# Print individual components of the date and time.
 print("Year:", current_date_time.year)
 print("Month (numeric):", current_date_time.month)
 print("Day of the month:", current_date_time.day)
 print("Hour (24-hour format):", current_date_time.hour)
 print("Minute:", current_date_time.minute)
-print("Second:", current_date_time.second)
+print("Second:", current_date_time.second) 
 
 # Print formatted date and time
 print("Year:", current_date_time.strftime("%Y"))
